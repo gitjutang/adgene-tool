@@ -1762,7 +1762,7 @@ def main():
     lang = st.sidebar.selectbox(
         "Language / 语言",
         ["中文", "English"],
-        index=0
+        index=1
     )
     
     # Language dictionary
