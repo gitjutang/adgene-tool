@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: adgene-tool
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run 26_online_analysis_tool.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PORT
+        value: 8501
