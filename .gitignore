@@ -20,30 +20,28 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
+# Virtual environments
 venv/
-ENV/
 env/
+ENV/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
 Thumbs.db
 
+# Data files (optional - uncomment if you want to exclude large data files)
+# *.csv
+# *.xlsx
+# *.tsv
+
 # Streamlit
 .streamlit/
-
-# Data files (optional - remove if you want to track data)
-*.csv
-*.xlsx
-*.xls
-!NACC_filtered_summary.csv
 
 # Logs
 *.log
